@@ -160,7 +160,7 @@ ecommerce: {
 });
 });
 
-document.getElementById("ga-cen-btn").addEventListener("click", function(){
+document.getElementById("ga-cep-btn").addEventListener("click", function(){
   dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
 event: "purchase",
@@ -172,7 +172,7 @@ ecommerce: {
     shipping: 5.99,
     currency: "USD",
     coupon: "SUMMER_SALE",
-    ecom_param_name: "ecom param value"
+    ecom_param_name: "ecom param value",
     items: [
      {
       item_id: "SKU_12345",
