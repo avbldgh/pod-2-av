@@ -32,7 +32,7 @@ document.getElementById("select-item").addEventListener("click", function(){
   document.getElementById("custom-select-item").addEventListener("click", function(){
     dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
     dataLayer.push({
-      event: "select_item",
+      event: "custom_select_item",
       ecommerce: {
         items: [
         {
