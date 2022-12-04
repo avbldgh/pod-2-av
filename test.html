@@ -22,6 +22,9 @@
         <button id="purchase-btn">GA4 purchase</button>
         <button id="ga-cen-btn">GA4 custom ecommerce event name</button>
         <button id="ga-cep-btn">GA4 custom ecommerce event param</button>
+        <button onclick="dataLayer.push({'event': 'contact_us', 'method': 'tel'});" id="ga-cep-btn">Tel</button>
+        <button onclick="dataLayer.push({'event': 'contact_us', 'method': 'mail'});" id="ga-cep-btn">mail</button>
+        <button onclick="dataLayer.push({'event': 'contact_us', 'method': 'whatsapp'});" id="ga-cep-btn">whatsapp</button>
     </main>
     <script src="main.js"></script>
 </body>
