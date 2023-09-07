@@ -7,15 +7,17 @@
     <title>Pod 2 AV</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script>document.cookie = "test=test; Secure";</script>
-    const setDefaultConsentState = require('setDefaultConsentState');
+    <script>
+        const setDefaultConsentState = require('setDefaultConsentState');
 
-    setDefaultConsentState({
-      'analytics_storage': 'denied',
-      'region': ['ES']
-    });
-    setDefaultConsentState({
-      'analytics_storage': 'granted'
-    });
+        setDefaultConsentState({
+        'analytics_storage': 'denied',
+        'region': ['ES', 'US-AK']
+        });
+        setDefaultConsentState({
+        'analytics_storage': 'granted'
+        });
+    </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
